@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2016
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BabysitterWageCalculator.Web", "BabysitterWageCalculator.Web\BabysitterWageCalculator.Web.csproj", "{DBEE120E-6484-48E2-9895-3E7AC282752A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BabysitterWageCalculator.Web.Tests", "BabysitterWageCalculator.Web.Tests\BabysitterWageCalculator.Web.Tests.csproj", "{BCB55A8C-58D1-42F9-A44B-010A49FB7E5A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DBEE120E-6484-48E2-9895-3E7AC282752A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBEE120E-6484-48E2-9895-3E7AC282752A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBEE120E-6484-48E2-9895-3E7AC282752A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBEE120E-6484-48E2-9895-3E7AC282752A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCB55A8C-58D1-42F9-A44B-010A49FB7E5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCB55A8C-58D1-42F9-A44B-010A49FB7E5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCB55A8C-58D1-42F9-A44B-010A49FB7E5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCB55A8C-58D1-42F9-A44B-010A49FB7E5A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {984BF482-E7D4-4BCF-8048-7DC794193511}
+	EndGlobalSection
+EndGlobal
