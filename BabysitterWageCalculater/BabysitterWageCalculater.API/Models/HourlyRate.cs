@@ -10,16 +10,16 @@ namespace BabysitterWageCalculater.API.Models
         private DateTime _bedTime = DateTime.MinValue;
         private TimeSpan _midnight = new TimeSpan(24, 0, 0);
 
-        public HourlyRate(DateTime hour, DateTime bedTime)
+        public HourlyRate(DateTime hour, DateTime kidsBedTime)
         {
             this.hour = hour;
-            this.bedtime = bedtime;
+            this.bedtime = kidsBedTime;
             SetWage();
         }
         
         public DateTime hour { get; set; }
 
-        private DateTime bedtime { get; set; }
+        public DateTime bedtime { get; set; }
 
         /// <summary>
         /// A babyitter gets paid for the full hour.

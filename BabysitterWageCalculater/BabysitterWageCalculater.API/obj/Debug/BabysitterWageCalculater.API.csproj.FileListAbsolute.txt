@@ -57,8 +57,8 @@ C:\Users\spirart\source\repos\OhioHealthKata\BabysitterWageCalculater\Babysitter
 C:\Users\spirart\source\repos\OhioHealthKata\BabysitterWageCalculater\BabysitterWageCalculater.API\bin\System.Web.Http.xml
 C:\Users\spirart\source\repos\OhioHealthKata\BabysitterWageCalculater\BabysitterWageCalculater.API\bin\System.Web.Http.WebHost.xml
 C:\Users\spirart\source\repos\OhioHealthKata\BabysitterWageCalculater\BabysitterWageCalculater.API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\spirart\source\repos\OhioHealthKata\BabysitterWageCalculater\BabysitterWageCalculater.API\obj\Debug\BabysitterWageCalculater.API.csprojAssemblyReference.cache
 C:\Users\spirart\source\repos\OhioHealthKata\BabysitterWageCalculater\BabysitterWageCalculater.API\obj\Debug\BabysitterWageCalculater.API.csproj.CoreCompileInputs.cache
 C:\Users\spirart\source\repos\OhioHealthKata\BabysitterWageCalculater\BabysitterWageCalculater.API\obj\Debug\BabysitterWageCalculater.API.csproj.CopyComplete
 C:\Users\spirart\source\repos\OhioHealthKata\BabysitterWageCalculater\BabysitterWageCalculater.API\obj\Debug\BabysitterWageCalculater.API.dll
 C:\Users\spirart\source\repos\OhioHealthKata\BabysitterWageCalculater\BabysitterWageCalculater.API\obj\Debug\BabysitterWageCalculater.API.pdb
+C:\Users\spirart\source\repos\OhioHealthKata\BabysitterWageCalculater\BabysitterWageCalculater.API\obj\Debug\BabysitterWageCalculater.API.csprojAssemblyReference.cache
