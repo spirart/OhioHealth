@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 15.0.28010.2016
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BabysitterWageCalculator.Web", "BabysitterWageCalculator.Web\BabysitterWageCalculator.Web.csproj", "{DBEE120E-6484-48E2-9895-3E7AC282752A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{97851E98-46D9-483D-891F-8FDA1513BF52} = {97851E98-46D9-483D-891F-8FDA1513BF52}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BabysitterWageCalculater.API", "BabysitterWageCalculater.API\BabysitterWageCalculater.API.csproj", "{97851E98-46D9-483D-891F-8FDA1513BF52}"
 EndProject

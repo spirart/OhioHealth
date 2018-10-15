@@ -1,0 +1,59 @@
+﻿@model BabysitterWageCalculator.Web.Models.BabysitterWageCalculator
+@{
+    ViewBag.Title = "Index";
+}
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>Babysitter Wage Calculator</title>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#submit").click(function () {
+                var parmStartTime = $('#startTime').val();
+                var parmEndTime = $('#endTime').val();
+                var parmBedTime = $('#bedTime').val();
+
+                ajax({                    
+                    url: 'http://localhost:50348/api/WageCalculator/GetBabysitterWage?startTime=' + parmStartTime + '&endTime=' + parmEndTime + '&bedTime=' + parmBedTime,
+                    type: 'POST',
+                    dataType: 'json',
+                    data: person,
+                    success: function (data, textStatus, xhr) {
+                        $('#totalWages').val(data);
+                    },
+                    error: function (xhr, textStatus, errorThrown) {
+                        alert('There was an error in the ajax call');
+                    }
+                 });
+             });
+         });
+    </script>
+</head>
+<body>
+    <div>
+
+        <form method="post" action="/Home/Index">
+            <div>
+                <label for="startTime">StartTime:</label>
+                <input id="starTime" type="datetime" name="startTime" class="date-picker" />
+            </div>
+            <div>
+                <label for="endTime">EndTime:</label>
+                <input id="endTime" type="datetime" name="endTime" class="date-picker" />
+            </div>
+
+            <div>
+                <label for="bedTime">Bed Time:</label>
+                <input id="bedTime" type="datetime" name="bedTime" class="date-picker" />
+            </div>
+            <div>
+                <label for="totalWages">Total Wages:</label>
+                <input id="totalWages" type="number" name="totalWages" />
+            </div>
+            <input id="submit" type="submit" value="Calculate" />
+        </form>
+
+    </div>
+</body>
+</html>
+
